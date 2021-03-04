@@ -13,9 +13,14 @@ function CompareCountryInfo(props) {
     todayRecovered,
     tests,
     testsPerOneMillion,
+    flag,
   } = props;
   return (
     <div className="compareCountryInfo">
+      {(flag && (
+        <img style={{ object: "contain", height: "100px" }} src={flag} />
+      )) ||
+        "Flag Undefined"}
       <p>
         <strong>Country: </strong> {country || "Undefined"}
       </p>

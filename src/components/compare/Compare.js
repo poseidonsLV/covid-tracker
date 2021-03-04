@@ -74,12 +74,14 @@ function Compare() {
               todayRecovered={compareOne.todayRecovered}
               tests={compareOne.tests}
               testsPerOneMillion={compareOne.testsPerOneMillion}
+              flag={compareOne.countryInfo && compareOne.countryInfo.flag}
             />
           </div>
           <div className="compared-col-2">
             <CompareCountryInfo
               country={compareTwo.country}
               population={compareTwo.population}
+              flag={compareTwo.countryInfo && compareTwo.countryInfo.flag}
               cases={compareTwo.cases}
               todayCases={compareTwo.todayCases}
               deaths={compareTwo.deaths}
