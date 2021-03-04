@@ -1,0 +1,55 @@
+.Compare {
+  display: grid;
+  margin-top: 10px;
+  place-items: center;
+  height: 92vh;
+  margin: 0 auto;
+}
+.compare-middle {
+  border-radius: 5px;
+  padding: 5px;
+  background: rgb(39, 39, 39);
+  border: 1px solid rgb(77, 77, 77);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+}
+.select-comparing {
+  display: flex;
+}
+.select-comparing select {
+  margin-right: 10px;
+  margin-left: 10px;
+  background: rgb(39, 39, 39);
+  border: 1px solid rgb(77, 77, 77);
+  color: white;
+  margin-top: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 550;
+}
+.select-comparing select:hover {
+  background: rgb(32, 32, 32);
+  border: 1px solid rgb(85, 85, 85);
+}
+.compared {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+.compared-col-1,
+.compared-col-2 {
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+  margin: 5px;
+  letter-spacing: 0.8px;
+  width: 100%;
+  background: rgb(39, 39, 39);
+  border: 1px solid rgb(77, 77, 77);
+  height: 500px;
+}
+.compared p {
+}

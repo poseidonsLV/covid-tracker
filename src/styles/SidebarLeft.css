@@ -1,0 +1,64 @@
+.SidebarLeft {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 325px;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.SidebarLeft .sidebarLeft-row-1 {
+  background: rgb(39, 39, 39);
+  border: 1px solid rgb(77, 77, 77);
+  text-align: center;
+  padding: 10px;
+}
+.SidebarLeft .sidebarLeft-row-1 h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.SidebarLeft .sidebarLeft-row-1 h1 {
+  color: red;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+.SidebarLeft .sidebarLeft-row-2 {
+  margin-top: 10px;
+  background: rgb(39, 39, 39);
+  border: 1px solid rgb(77, 77, 77);
+  text-align: center;
+}
+
+.SidebarLeft .sidebarLeft-row-2 .row-2-title {
+  padding: 5px;
+  color: rgb(201, 201, 201);
+  font-weight: 500;
+  border-bottom: 1px solid rgb(77, 77, 77);
+}
+
+.row-2-cases {
+  height: 75.4vh;
+  overflow-y: auto;
+  color: rgb(201, 201, 201);
+}
+
+.row-2-cases-case.active {
+  background: rgba(0, 110, 255, 0.3);
+}
+
+.row-2-cases-case {
+  display: flex;
+  cursor: pointer;
+  padding: 5px;
+  align-items: center;
+  border-bottom: 1px solid rgb(77, 77, 77);
+  font-size: 1.2rem;
+}
+.row-2-cases-case strong {
+  color: red;
+  display: flex;
+  margin-right: 5px;
+  flex: 0.35;
+}
