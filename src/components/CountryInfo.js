@@ -7,7 +7,7 @@ function CountryInfo({ countryData }) {
   return (
     <div className="country">
       {countryData.map((dataset) => (
-        <div className="countryInfo">
+        <div key={dataset.countryName} className="countryInfo">
           <p>
             <strong>Country:</strong> {dataset.country}
           </p>

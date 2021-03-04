@@ -60,6 +60,11 @@ function App() {
 
     getGlobalCases();
     getAllCountryCases();
+
+    setInterval(() => {
+      getGlobalCases();
+      getAllCountryCases();
+    }, 1800000);
   }, []);
 
   return (
