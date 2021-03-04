@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import Map from "./components/Map";
 import SidebarLeft from "./components/SidebarLeft";
 import SidebarRight from "./components/SidebarRight";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Compare from "./components/compare/Compare";
 
 function App() {
