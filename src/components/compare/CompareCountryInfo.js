@@ -18,7 +18,7 @@ function CompareCountryInfo(props) {
   return (
     <div className="compareCountryInfo">
       {(flag && (
-        <img style={{ object: "contain", height: "100px" }} src={flag} />
+        <img style={{ object: "contain", height: "100px" }} src={flag} alt="bildite" />
       )) ||
         "Flag Undefined"}
       <p>
