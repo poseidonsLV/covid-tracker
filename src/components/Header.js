@@ -17,7 +17,7 @@ function Header() {
   return (
     <div className="Header">
       <h1>
-        COVID-19 Code by Paula Design Idea by{" "}
+        COVID-19 Code by Poseidons Design Idea by{" "}
         <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">
           arcgis.com
         </a>
